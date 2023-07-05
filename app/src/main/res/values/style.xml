@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Boshqa stil atributlari -->
+        <item name="android:itemTextAppearance">@style/MenuItemStyle</item>
+        <!-- Boshqa atributlar -->
+    </style>
+
+    <style name="MenuItemStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/menu_tugmach_rangi</item>
+    </style>
+
+</resources>

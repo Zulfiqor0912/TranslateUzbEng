@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:background="#12172A"
+    android:paddingHorizontal="0dp"
+    android:paddingVertical="3dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Design"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Dizayn"
+        android:textColor="#404661"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/text_1"
+        app:layout_constraintTop_toBottomOf="@+id/text_1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/bg_line"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/off_star"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
